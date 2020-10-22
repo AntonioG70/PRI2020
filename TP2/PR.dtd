@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT projectRecord (info, workteam, abstract, deliverables, data) >
+<!ELEMENT info (titulo, subtitulo?, beginD, endD, supervisor) >
+
+<!ATTLIST info 
+    key_name ID #REQUIRED
+    >
+    
+<!ELEMENT titulo (#PCDATA) >
+<!ELEMENT subtitulo (#PCDATA) >
+<!ELEMENT beginD (#PCDATA) >
+<!ELEMENT endD (#PCDATA) >
+<!ELEMENT supervisor (#PCDATA) >
+
+<!ATTLIST  supervisor
+    nomelink CDATA  #REQUIRED
+    >
+
+<!ELEMENT workteam (person)+ >
+<!ELEMENT person (nome) >
+<!ELEMENT nome (#PCDATA) >
+
+<!ATTLIST person
+    numero ID #REQUIRED
+    linkEmail CDATA #REQUIRED
+    >
+    
+<!ELEMENT abstract (paragrafo)+ >
+<!ELEMENT paragrafo (text, bolds, italico, links)+  >
+<!ELEMENT text (#PCDATA) >
+<!ELEMENT bolds (#PCDATA) >
+<!ELEMENT italico (#PCDATA) >
+<!ELEMENT links (#PCDATA) >
+
+<!ATTLIST links 
+    url CDATA #REQUIRED
+    >
+    
+<!ELEMENT deliverables (linkFile)+ >
+<!ELEMENT linkFile (#PCDATA) >
+
+<!ATTLIST linkFile 
+    fileUrl CDATA #REQUIRED
+    >
+
+<!ELEMENT data (#PCDATA) >
+    
+
+

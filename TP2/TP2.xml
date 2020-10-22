@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE projectRecord SYSTEM "file:/C:/Users/anton/OneDrive/Ambiente%20de%20Trabalho/PR.dtd">
+<projectRecord>
+    <info key_name="A85813_PRI_TP2">
+        <titulo>TP2</titulo>
+        <subtitulo>PRI</subtitulo>
+        <beginD>22 de Outubro 2020</beginD>
+        <endD>22 de Outubro 2020</endD>
+        <supervisor nomelink="www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </info>
+    <workteam>
+        <person numero="A85813" linkEmail="a85813@alunos.uminho.pt">
+            <nome>António Alexandre Carvalho Lindo</nome>
+        </person>
+    </workteam>
+    <abstract>
+        <paragrafo>
+            <text>Trabalho 2 da UC de PRI</text>
+            <bolds></bolds>
+            <italico></italico>
+            <links url=""></links>
+        </paragrafo>
+    </abstract>
+    <deliverables>
+        <linkFile fileUrl="https://github.com/AntonioG70/PRI2020"></linkFile>
+    </deliverables>
+    <data>22 de Outubro de 2020</data>
+</projectRecord>
