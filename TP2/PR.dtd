@@ -26,7 +26,7 @@
     >
     
 <!ELEMENT abstract (paragrafo)+ >
-<!ELEMENT paragrafo (text, bolds, italico, links)+  >
+<!ELEMENT paragrafo (text | bolds | italico | links)+  >
 <!ELEMENT text (#PCDATA) >
 <!ELEMENT bolds (#PCDATA) >
 <!ELEMENT italico (#PCDATA) >
