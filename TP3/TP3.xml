@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE projectRecord SYSTEM "file:/C:/Users/anton/OneDrive/Ambiente%20de%20Trabalho/Universidade/PLC/PRI/TP2/PR.dtd">
+<projectRecord>
+    <info key_name="A85813_PRI_TP3">
+        <titulo>TP3</titulo>
+        <subtitulo>PRI 2020</subtitulo>
+        <beginD>29 de Outubro de 2020</beginD>
+        <endD>31 de Outubro de 2020</endD>
+        <supervisor nomelink="www.di.uminho.pt/~jcr">José Carlos Ramalho</supervisor>
+    </info>
+    <workteam>
+        <person numero="A85813" linkEmail="mailto:a85813@alunos.uminho.pt">
+            <nome>António Alexandre Carvalho Lindo</nome>
+        </person>
+    </workteam>
+    <abstract>
+        <paragrafo>
+            <text>
+                Neste TP3, foi feito um DTD a partir da arquitetura de um dado ficheiro XML.
+                Posteriormente, foi feito um documento XSL, que criasse um website com os vários
+                geossitios presentes no mesmo ficheiro XML dado. O website tem um indice com os varios sitios
+                e uma pagina para cada um deles.
+            </text>
+        </paragrafo>
+    </abstract>
+    <deliverables>
+        <linkFile fileUrl="https://github.com/AntonioG70/PRI2020/tree/main/TP3"></linkFile>
+    </deliverables>
+    <data>31 de Outubro de 2020</data>
+</projectRecord>
