@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PR SYSTEM "file:/C:/Users/anton/OneDrive/Ambiente%20de%20Trabalho/Universidade/PLC/PRI/PR.dtd">
+<PR>
+    <meta>
+        <key>A85813_PRI_TP4</key>
+        <title>TP4</title>
+        <subtitle>PRI 2020</subtitle>
+        <bdate>5 de novembro de 2020</bdate>
+        <edate>7 de novembro de 2020</edate>
+        <supervisor>José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A85813">
+            <name>António Alexandre Carvalho Lindo</name>
+            <email>a85813@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Neste TPC foi implementado um XSL capaz de gerar um indice e várias paginas HTML sobre um dataset de arqueossitios, tal como no tpc anterior,
+        mas desta vez numerados. Para chegar a este resultado utilizei a função posiiton() em vez da generate-id().</p>
+        <p>A segunda tarefa consistia em implementar um servidor node.js que fosse capaz de servir pedidos para as paginas criadas na tarefa 1. Através dos exemplos 
+        da última aula adaptei um servidor para as novas circunstancias.</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/AntonioG70/PRI2020/tree/main/TP4"></link>
+    </deliverables>
+</PR>
