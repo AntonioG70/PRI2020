@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PR SYSTEM "file:/C:/Users/anton/OneDrive/Ambiente%20de%20Trabalho/Universidade/PLC/PRI/PR.dtd">
+<PR>
+    <meta>
+        <key>A85813_PRI_TP5</key>
+        <title>TP5</title>
+        <subtitle>PRI 2020</subtitle>
+        <bdate>13 de novembro de 2020</bdate>
+        <edate>15 de novembro de 2020</edate>
+        <supervisor>José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A85813">
+            <name>António Alexandre Carvalho Lindo</name>
+            <email>a85813@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Neste foi implementado um servidor node que apresentava paginas html com listas de alunos, instrumentos e cursos de uma escola de música. Dentro de cada lista é possível aceder a informações de algum aluno, instrumento ou curso em particular. As informações foram
+        retiradas de um JSON server , sendo cada página html criada em run time a partir das mesmas informações.</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/AntonioG70/PRI2020/tree/main/TP5"></link>
+    </deliverables>
+</PR>
