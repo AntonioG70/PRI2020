@@ -1,0 +1,28 @@
+{
+  "tarefas": [
+    {
+      "descricao": "fazer tpc",
+      "responsavel": "Antonio",
+      "data": "2020-11-21",
+      "resolvido": true,
+      "cancelado": false,
+      "id": 1
+    },
+    {
+      "descricao": "ir as compras",
+      "responsavel": "Rafael",
+      "data": "2020-11-26",
+      "resolvido": false,
+      "cancelado": false,
+      "id": 2
+    },
+    {
+      "descricao": "lavar a louça",
+      "responsavel": "Bruno",
+      "data": "2020-11-25",
+      "resolvido": false,
+      "cancelado": true,
+      "id": 3
+    }
+  ]
+}
