@@ -1,0 +1,75 @@
+extends layout
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h3 Aluno    
+        if lista.length > 0 
+            .w3-container
+                table(class="w3-table-all")
+                    tr 
+                        th Número
+                        th Nome
+                        th Git
+                        th TP1
+                        th TP2
+                        th TP3
+                        th TP4
+                        th TP5
+                        th TP6
+                        th TP7
+                        th TP8
+                        
+                    each a in lista
+                        tr
+                            td= a.Número
+                            td= a.Nome
+                            td 
+                                a(href=a.Git) #{a.Git}
+                            case a.tpc[0]
+                                when 1
+                                    td= "Entregue"
+                                default
+                                    td= "Não entregue"
+                            case a.tpc[1]
+                                when 1
+                                    td= "Entregue"
+                                default
+                                    td= "Não entregue"
+                            case a.tpc[2]
+                                when 1
+                                    td= "Entregue"
+                                default
+                                    td= "Não entregue"
+                            case a.tpc[3]
+                                when 1
+                                    td= "Entregue"
+                                default
+                                    td= "Não entregue"
+                            case a.tpc[4]
+                                when 1
+                                    td= "Entregue"
+                                default
+                                    td= "Não entregue"
+                            case a.tpc[5]
+                                when 1
+                                    td= "Entregue"
+                                default
+                                    td= "Não entregue"
+                            case a.tpc[6]
+                                when 1
+                                    td= "Entregue"
+                                default
+                                    td= "Não entregue"
+                            case a.tpc[7]
+                                when 1
+                                    td= "Entregue"
+                                default
+                                    td= "Não entregue"                                                        
+                            
+              
+                a(href='http://localhost:7700/alunos/') Voltar à lista de alunos
+        else
+            div(class="w3-container")
+                p Aluno não existe
+            footer(class="w3-container w3-teal")
+                address Gerado por antonio :: 2020-Novembro, ant

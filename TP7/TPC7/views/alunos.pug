@@ -1,0 +1,39 @@
+extends layout
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h3 Lista de Alunos
+        if lista.length > 0
+            .w3-container
+                table(class="w3-table-all")
+                    tr 
+                        th Número
+                        th Nome
+                        th
+                        th
+                        th
+                    each a in lista
+                        tr
+                            td= a.Número
+                            td= a.Nome
+                            td
+                                button(type = "button")
+                                    a(href='http://localhost:7700/alunos/' + a.Número) Ver perfil  
+                            td 
+                                button(type = "button")
+                                    a(href='http://localhost:7700/alunos/editar/' + a.Número) Editar
+                            td  
+                                form(class="w3-container" action="/alunos" method="POST")
+                                    label(class="w3-text-teal") 
+                                        button(type = "submit") Remover aluno
+                                            input(type="hidden" name="metodo" value="delete") 
+                                            input(type="hidden" name="id" value=a.Número)
+                                          
+                a(href='http://localhost:7700') Voltar à página inicial
+                br
+                a(href='http://localhost:7700/alunos/registar') Registar aluno     
+        else
+            div(class="w3-container")
+                p Ainda não há alunos resgistados ... 
+            footer(class="w3-container w3-teal")
+                address Gerado por galuno :: 2020-Novembro, jcr
