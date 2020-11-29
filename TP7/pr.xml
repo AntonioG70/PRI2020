@@ -2,11 +2,11 @@
 <!DOCTYPE PR SYSTEM "file:/C:/Users/anton/OneDrive/Ambiente%20de%20Trabalho/Universidade/PLC/PRI/PR.dtd">
 <PR>
     <meta>
-        <key>A85813_PRI_TP5</key>
-        <title>TP5</title>
+        <key>A85813_PRI_TP7</key>
+        <title>TP7</title>
         <subtitle>PRI 2020</subtitle>
-        <bdate>13 de novembro de 2020</bdate>
-        <edate>15 de novembro de 2020</edate>
+        <bdate>28 de novembro de 2020</bdate>
+        <edate>29 de novembro de 2020</edate>
         <supervisor>José Carlos Ramalho</supervisor>
     </meta>
     <workteam>
@@ -16,10 +16,10 @@
         </worker>
     </workteam>
     <abstract>
-        <p>Neste foi implementado um servidor node que apresentava paginas html com listas de alunos, instrumentos e cursos de uma escola de música. Dentro de cada lista é possível aceder a informações de algum aluno, instrumento ou curso em particular. As informações foram
-        retiradas de um JSON server , sendo cada página html criada em run time a partir das mesmas informações.</p>
+        <p>Neste TP, foi implementado em node, um servidor que respondesse a pedidos em relação a uma base de dados mongodb. Os pedidos seriam para
+        listar os alunos, editar, registar, eliminar e aceder a informaões de alunos. Foi utilizado o express para a geração de código.</p>
     </abstract>
     <deliverables>
-        <link url="https://github.com/AntonioG70/PRI2020/tree/main/TP5"></link>
+        <link url="https://github.com/AntonioG70/PRI2020/tree/main/TP7"></link>
     </deliverables>
 </PR>
