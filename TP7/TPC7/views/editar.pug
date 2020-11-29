@@ -1,0 +1,108 @@
+extends layout
+block content
+
+        each b in info
+            .w3-card-4
+                header.w3-container.w3-teal
+                    h3 Editar aluno #{b.Número}
+        each a in info
+            form(class="w3-container" action="/alunos" method="POST")
+
+                label(class="w3-text-teal") 
+                    b Nome
+                    input(class="w3-input w3-border w3-light-grey" type="text" value=a.Nome name="nome")
+
+                label(class="w3-text-teal") 
+                    b Git
+                    input(class="w3-input w3-border w3-light-grey" type="text" value=a.Git name="git")
+
+                input(type="hidden" name="id" value=a.Número)
+
+                label(class="w3-text-teal")
+                    p 
+                        b Selecione se entregou o TP
+
+                case a.tpc[0]
+                    when 1
+                        label(class="w3-text-teal") 
+                            b TP1
+                            input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp1" checked)
+                    default
+                        label(class="w3-text-teal")
+                            b TP1
+                            input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp1")    
+
+                case a.tpc[1]
+                    when 1
+                        label(class="w3-text-teal") 
+                            b TP2
+                            input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp2" checked)
+                    default
+                        label(class="w3-text-teal")
+                            b TP2
+                            input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp2")
+
+                case a.tpc[2]
+                    when 1
+                        label(class="w3-text-teal") 
+                            b TP3
+                            input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp3" checked)
+                    default
+                        label(class="w3-text-teal")
+                            b TP3
+                            input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp3")
+
+                case a.tpc[3]
+                    when 1
+                        label(class="w3-text-teal") 
+                            b TP4
+                            input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp4" checked)
+                    default
+                        label(class="w3-text-teal")
+                            b TP4
+                            input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp4")
+
+                case a.tpc[4]
+                    when 1
+                        label(class="w3-text-teal") 
+                            b TP5
+                            input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp5" checked)
+                    default
+                        label(class="w3-text-teal")
+                            b TP5
+                            input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp5")
+
+                case a.tpc[5]
+                    when 1
+                        label(class="w3-text-teal") 
+                            b TP6
+                            input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp6" checked)
+                    default
+                        label(class="w3-text-teal")
+                            b TP6
+                            input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp6")
+
+                case a.tpc[6]
+                    when 1
+                        label(class="w3-text-teal") 
+                            b TP7
+                            input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp7" checked)
+                    default
+                        label(class="w3-text-teal")
+                            b TP7
+                            input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp7")
+
+                case a.tpc[7]
+                    when 1
+                        label(class="w3-text-teal") 
+                            b TP8
+                            input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp8" checked)
+                    default
+                        label(class="w3-text-teal")
+                            b TP8
+                            input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp8")                                                                        
+                                             
+
+                input(class="w3-btn w3-blue-grey" type="submit" value="Editar")
+                br
+                a(href='http://localhost:7700/alunos') Voltar à lista de alunos

@@ -1,0 +1,63 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h3 Registo de aluno
+
+        form(class="w3-container" action="/alunos" method="POST")
+                label(class="w3-text-teal") 
+                    b Número
+                    input(class="w3-input w3-border w3-light-grey" type="text" name="numero")
+
+                label(class="w3-text-teal") 
+                    b Nome
+                    input(class="w3-input w3-border w3-light-grey" type="text" name="nome")
+
+                label(class="w3-text-teal") 
+                    b Git
+                    input(class="w3-input w3-border w3-light-grey" type="text" name="git")
+
+                label(class="w3-text-teal")
+                    p 
+                        b Selecione se entregou o TP
+
+                label(class="w3-text-teal") 
+                    b TP1
+                    input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp1") 
+
+                label(class="w3-text-teal") 
+                    b TP2
+                    input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp2")
+
+                label(class="w3-text-teal") 
+                    b TP3
+                    input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp3")
+
+                label(class="w3-text-teal") 
+                    b TP4
+                    input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp4")
+
+                label(class="w3-text-teal") 
+                    b TP5
+                    input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp5")
+
+                label(class="w3-text-teal") 
+                    b TP6
+                    input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp6")
+
+                label(class="w3-text-teal") 
+                    b TP7
+                    input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp7")
+
+                label(class="w3-text-teal") 
+                    b TP8
+                    input(class="w3-input w3-border w3-light-grey" type="checkbox" name="tp8")                                              
+
+                input(class="w3-btn w3-blue-grey" type="submit" value="Registar")
+                input(class="w3-btn w3-blue-grey" type="reset" value="Limpar valores")
+                
+                br
+                a(href='http://localhost:7700') Voltar à página inicial
+                br
+                a(href='http://localhost:7700/alunos') Voltar à lista de alunos
