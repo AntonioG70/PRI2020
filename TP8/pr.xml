@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PR SYSTEM "file:/C:/Users/anton/OneDrive/Ambiente%20de%20Trabalho/Universidade/PLC/PRI/PR.dtd">
+<PR>
+    <meta>
+        <key>A85813_PRI_TP8</key>
+        <title>TP7</title>
+        <subtitle>PRI 2020</subtitle>
+        <bdate>5 de dezembro de 2020</bdate>
+        <edate>7 de dezembro de 2020</edate>
+        <supervisor>José Carlos Ramalho</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A85813">
+            <name>António Alexandre Carvalho Lindo</name>
+            <email>a85813@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Neste TP, o objetivo era fazer um sistema de geração de ficheiros igual ao feito na aula anterior, mas no fomulário 
+        ser possivel introduzir varios ficheiros (ter um botao que abre um novo form para introdução de novos ficheiros)</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/AntonioG70/PRI2020/tree/main/TP8"></link>
+    </deliverables>
+</PR>
